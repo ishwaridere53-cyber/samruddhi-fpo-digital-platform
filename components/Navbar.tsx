@@ -6,7 +6,10 @@ export default function Navbar() {
         {/* Logo */}
         <div className="flex items-center gap-2 text-white font-bold text-lg">
           <span className="text-2xl">🌿</span>
-          <span>Samruddhi FPO</span>
+          <div className="flex flex-col">
+            <span>Samruddhi FPO</span>
+            <span className="text-black text-sm font-normal">From Farmer to Family – Pure, Trusted, Samruddhi</span>
+          </div>
         </div>
 
         {/* Menu and Login Button - Right Side */}
